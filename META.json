@@ -49,6 +49,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/yakudzo/Kelp-Module-Config-General/issues"
+      },
+      "homepage" : "https://github.com/yakudzo/Kelp-Module-Config-General",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/yakudzo/Kelp-Module-Config-General.git",
+         "web" : "https://github.com/yakudzo/Kelp-Module-Config-General"
+      }
+   },
    "version" : "0.03",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0221"
 }

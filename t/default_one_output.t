@@ -5,7 +5,7 @@ use Kelp::Base -strict;
 use Kelp;
 use Test::More;
 
-my $app = Kelp->new( config_module => 'Config::General' );
+my $app = Kelp->new( mode => 'default_one_output', config_module => 'Config::General' );
 
 can_ok $app, 'config';
 is $app->config('something'), 1;
