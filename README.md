@@ -18,6 +18,7 @@ This module provides support of [Config::General](https://metacpan.org/pod/Confi
     -ForceArray      => 1,
     -IncludeAgain    => 1,
     -InterPolateVars => 1,
+    -IncludeRelative => 1,
 
 Because [Config::General](https://metacpan.org/pod/Config::General) provides key/value interface you are not able to create array of arrays for your default [Kelp::Module::Logger](https://metacpan.org/pod/Kelp::Module::Logger) configuration. This module does it for you but only in this situation.
 
