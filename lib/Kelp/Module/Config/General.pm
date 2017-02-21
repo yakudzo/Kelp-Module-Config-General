@@ -16,6 +16,7 @@ sub load {
         -ForceArray      => 1,
         -IncludeAgain    => 1,
         -InterPolateVars => 1,
+        -IncludeRelative => 1,
     );
     my %config = $conf->getall;
 
@@ -62,6 +63,7 @@ L<Config::General> module is loaded with following configuration options:
     -ForceArray      => 1,
     -IncludeAgain    => 1,
     -InterPolateVars => 1,
+    -IncludeRelative => 1,
 
 Because L<Config::General> provides key/value interface you are not able to create array of arrays for your default L<Kelp::Module::Logger> configuration. This module does it for you but only in this situation.
 
